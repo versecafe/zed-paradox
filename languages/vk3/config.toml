@@ -1,0 +1,9 @@
+name = "Victoria 3"
+grammar = "vk3"
+path_suffixes = ["txt", "mod"]
+line_comments = ["#"]
+brackets = [
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "{", end = "}", close = true, newline = false },
+]

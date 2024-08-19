@@ -1,0 +1,11 @@
+id = "paradox"
+name = "Paradox"
+description = "Syntax highlighting and tools for Paradox CW Engine files."
+version = "0.0.1"
+schema_version = 1
+authors = ["versecafe <147033096+versecafe@users.noreply.github.com>"]
+repository = "https://github.com/versecafe/zed-paradox"
+
+[grammars.vk3]
+repository = "https://github.com/versecafe/tree-sitter-vk3"
+commit = "94d8f6f14fb5cc600fad6a855ed7054bca049a39"
